@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="item_color_array">
+        <item>#ffa4c639</item>
+        <item>#ff1ABC9C</item>
+        <item>#ff16A085</item>
+        <item>#ff2ECC71</item>
+        <item>#ff27AE60</item>
+        <item>#ff3498DB</item>
+        <item>#ff2980B9</item>
+        <item>#ff9B59B6</item>
+        <item>#ff8E44AD</item>
+        <item>#ff34495E</item>
+        <item>#ff2C3E50</item>
+        <item>#ffF1C40F</item>
+        <item>#ffF39C12</item>
+        <item>#ffE67E22</item>
+        <item>#ffD35400</item>
+        <item>#ffE74C3C</item>
+        <item>#ffC0392B</item>
+    </array>
+
+    <string-array name="rankTypeText">
+        <item>新歌榜</item>
+        <item>热歌榜</item>
+        <item>KTV热歌榜</item>
+        <item>摇滚榜</item>
+        <item>爵士</item>
+        <item>流行</item>
+        <item>华语金曲榜</item>
+        <item>欧美金曲榜</item>
+        <item>经典老歌榜</item>
+        <item>情歌对唱榜</item>
+        <item>影视金曲榜</item>
+        <item>网络歌曲榜</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="true"
+        android:drawable="@mipmap/playsong_thumb_pressed" />
+    <!-- 普通无焦点状态 -->
+    <item
+        android:state_focused="false"
+        android:state_pressed="false"
+        android:drawable="@mipmap/playsong_thumb_normal" />
+</selector>

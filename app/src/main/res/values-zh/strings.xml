@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shake_to_set_classify">摇一摇更换推荐歌曲</string>
+    <string name="click_to_play_song">（单击播放歌曲）</string>
+    <string name="input_songName_singerName">输入歌曲/歌手名</string>
+    <string name="rank_type">榜单</string>
+    <string name="check_music">小鸡音乐</string>
+</resources>

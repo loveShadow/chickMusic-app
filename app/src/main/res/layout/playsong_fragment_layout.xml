@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/songImageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="5dp"
+        android:background="@mipmap/defult_music_icon"/>
+
+    <SeekBar
+        android:id="@+id/songSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="4dip"
+        android:maxHeight="4dip"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toRightOf="@id/songImageView"
+        android:thumb="@drawable/playsong_thumb_background"
+        android:thumbOffset="0dp"
+        android:max="100"
+        />
+
+    <RelativeLayout
+        android:id="@+id/controlLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/songImageView"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/songSeekBar">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/playButton">
+
+            <com.zhaoli.chickmusic.app.views.MarqueeTextView
+                android:id="@+id/songName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/check_music"
+                android:textSize="18sp"
+                android:singleLine="true"
+                android:focusable="true"
+                android:layout_marginLeft="5dp"
+                android:marqueeRepeatLimit="marquee_forever"/>
+
+            <com.zhaoli.chickmusic.app.views.MarqueeTextView
+                android:id="@+id/singerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/check_music"
+                android:singleLine="true"
+                android:focusable="true"
+                android:layout_marginLeft="5dp"
+                android:marqueeRepeatLimit="marquee_forever"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/playButton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_toLeftOf="@+id/nextSongButton"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/playsong_startplay_background"/>
+
+        <Button
+            android:id="@+id/nextSongButton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_toLeftOf="@+id/playListButton"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/playsong_nextsong_background"/>
+
+        <Button
+            android:id="@+id/playListButton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/playsong_playlist_background"/>
+    </RelativeLayout>
+</RelativeLayout>
