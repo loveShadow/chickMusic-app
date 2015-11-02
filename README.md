@@ -8,3 +8,10 @@
   1、新出的RecyclerView控件使用
   2、MediaPlayer播放网络歌曲
   3、volley网络库及gson库的使用
+
+  
+功能演示：
+![image](https://github.com/loveShadow/chickMusic-app/blob/master/demoImage/home_page.png)
+![image](https://github.com/loveShadow/chickMusic-app/blob/master/demoImage/player_list.png)
+![image](https://github.com/loveShadow/chickMusic-app/blob/master/demoImage/rank_page.png)
+![image](https://github.com/loveShadow/chickMusic-app/blob/master/demoImage/search_page.png)
