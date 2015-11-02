@@ -11,7 +11,15 @@
 
   
 功能演示：
+
 ![image](https://github.com/loveShadow/chickMusic-app/blob/master/demoImage/home_page.png)
+
+
 ![image](https://github.com/loveShadow/chickMusic-app/blob/master/demoImage/player_list.png)
+
+
 ![image](https://github.com/loveShadow/chickMusic-app/blob/master/demoImage/rank_page.png)
+
+
 ![image](https://github.com/loveShadow/chickMusic-app/blob/master/demoImage/search_page.png)
+
